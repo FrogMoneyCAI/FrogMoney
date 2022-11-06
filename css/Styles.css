@@ -1,0 +1,31 @@
+.logonavbar{
+  width: 100px;
+  height: 50px;
+}
+.navbar{
+  background-color: #511876;
+}
+
+.navbar a{
+  font-family: 'Noto Sans Thai', sans-serif !important;
+  color: white;
+}
+.navbar ul{
+  background-color: #511876;
+}
+.container-fluid{
+  background-color: #511876;
+}
+h1{
+  line-height: 1.5;
+  font-family: 'Noto Sans Thai', sans-serif !important;
+  font-size: 3rem ;
+}
+#title{
+  background-color: #511876;
+  color: #fff;
+}
+.center-text{
+  text-align: center;
+  font-size: 3rem ;
+}
