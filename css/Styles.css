@@ -1,3 +1,6 @@
+body{
+  background-color: #edd0e1;
+}
 .logonavbar{
   width: 100px;
   height: 50px;
@@ -25,7 +28,35 @@ h1{
   background-color: #511876;
   color: #fff;
 }
+
+.center{
+  text-align: center;
+}
+.bigtitle{
+  font-size: 5rem;
+}
+.nexttitle{
+  font-size: 4rem;
+}
 .center-text{
   text-align: center;
   font-size: 3rem ;
+}
+.image-row{
+width: 100%;
+margin:50px auto ;
+text-align: center;
+}
+
+.normal{
+  font-size: 1rem ;
+}
+.mainPic {
+  -ms-transform: rotate(25deg);
+  transform: rotate(25deg);
+  display: inline-block;
+    margin: 0 0.5rem;
+
+    animation: zoomIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
 }
