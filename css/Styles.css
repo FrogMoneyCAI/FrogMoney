@@ -28,6 +28,7 @@ h1{
   line-height: 1.5;
   font-family: 'Noto Sans Thai', sans-serif !important;
   font-size: 3rem ;
+  color: white;
 }
 .text_animate {
   animation-duration: 3s;
@@ -69,7 +70,13 @@ h1{
   color: black ;
 }
 .card-text{
+    font-family: 'Noto Sans Thai', sans-serif !important;
   color: black ;
+}
+.duty{
+  font-family: 'Noto Sans Thai', sans-serif !important;
+  font-size: 2rem ;
+}
 }
 #title{
   background-color: #511876;
