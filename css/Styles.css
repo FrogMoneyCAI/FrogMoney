@@ -17,12 +17,38 @@ body{
   background-color: #511876;
 }
 .container-fluid{
+  height: 60px;
   background-color: #511876;
+}
+.collapse{
+  height: 60px;
 }
 h1{
   line-height: 1.5;
   font-family: 'Noto Sans Thai', sans-serif !important;
   font-size: 3rem ;
+}
+.text_animate {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  75% {
+    font-size: 300%;
+    margin-left: 25%;
+    width: 150%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
 .card-title{
   font-family: 'Noto Sans Thai', sans-serif !important;
@@ -68,7 +94,29 @@ text-align: center;
     animation: zoomIn; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 2s; /* don't forget to set a duration! */
 }
+.middle-container{
+}
+.image_animate{
+  width: 100%;
+}
+.slidein {
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+}
 
+@keyframes slidein {
+  from {
+    margin-bottom: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 .YTbutton{
 font-size: 2rem;
  color:red;
