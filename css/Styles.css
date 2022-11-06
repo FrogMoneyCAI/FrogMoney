@@ -24,6 +24,14 @@ h1{
   font-family: 'Noto Sans Thai', sans-serif !important;
   font-size: 3rem ;
 }
+.card-title{
+  font-family: 'Noto Sans Thai', sans-serif !important;
+  font-size: 2rem ;
+  color: black ;
+}
+.card-text{
+  color: black ;
+}
 #title{
   background-color: #511876;
   color: #fff;
@@ -59,4 +67,13 @@ text-align: center;
 
     animation: zoomIn; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.YTbutton{
+font-size: 2rem;
+ color:red;
+}
+.FBbebutton{
+font-size: 2rem;
+  color: #243c64
 }
