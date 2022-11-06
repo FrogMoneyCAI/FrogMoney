@@ -1,5 +1,6 @@
 body{
-  background-color: #edd0e1;
+  background-color:  #511876;
+
 }
 .logonavbar{
   width: 100px;
@@ -55,14 +56,35 @@ h1{
   font-size: 2rem ;
   color: black ;
 }
+.indexcard-title{
+  font-family: 'Noto Sans Thai', sans-serif !important;
+  font-size: 2rem ;
+  text-align: center;
+  color: black ;
+}
+.indexcard-text{
+  font-family: 'Noto Sans Thai', sans-serif !important;
+  font-size: 1.5rem ;
+  text-align: center;
+  color: black ;
+}
 .card-text{
   color: black ;
 }
 #title{
   background-color: #511876;
   color: #fff;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
-
+#Testimonial {
+  background-color: #ADFF2F;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+#bottom-bar{
+  background-color: #edd0e1;
+}
 .center{
   text-align: center;
 }
@@ -124,4 +146,42 @@ font-size: 2rem;
 .FBbebutton{
 font-size: 2rem;
   color: #243c64
+}
+
+
+.container {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    text-align: center;
+  }
+
+  .container img {
+    margin: auto;
+    float: none;
+    display: block;
+  }
 }
